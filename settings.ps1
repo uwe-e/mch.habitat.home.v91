@@ -1,7 +1,7 @@
 # Solution parameters
 $SolutionPrefix = "mch.habitathome.v91"
 $SitePostFix = "dev.local"
-$webroot = "d:\work\sitecore"
+$webroot = "c:\work\sitecore"
 
 $SitecoreVersion = "9.1.0 rev. 001564"
 $IdentityServerVersion = "2.0.0 rev. 00157"
@@ -57,5 +57,5 @@ $IdentityServerSiteRoot = Join-Path $webroot -ChildPath $IdentityServerSiteName
 
 # Solr Parameters
 $SolrUrl = "https://localhost:8983/solr"
-$SolrRoot = "d:\solr\solr-7.2.1"
+$SolrRoot = "c:\solr\solr-7.2.1"
 $SolrService = "solr-7.2.1"

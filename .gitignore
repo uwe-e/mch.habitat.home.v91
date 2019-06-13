@@ -21,6 +21,7 @@ packages/
 *sc-internal*
 /generate-scinternal-files.ps1
 azureuser-config.json
+build/assets
 
 tools/*
 !tools/packages.config

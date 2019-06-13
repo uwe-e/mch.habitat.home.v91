@@ -37,7 +37,9 @@ try {
 	$keytool = (Get-Command 'keytool.exe').Source
 } catch {
 	try {
-		$path = $Env:JAVA_HOME + '\bin\keytool.exe'
+		#$path = $Env:JAVA_HOME + '\bin\keytool.exe'
+        #$env.path didnt work, so I used the the whole path
+        $path = 'C:\Program Files (x86)\Java\jre1.8.0_211\bin\keytool.exe'
 		Write-Host $path
 		if (Test-Path $path) {
 			$keytool = (Get-Command $path).Source
@@ -45,7 +47,7 @@ try {
 			throw "Keytool not in JAVA_HOME or JAVA_HOME not defined"
 		}
 	} catch {
-		$keytool = Read-Host "keytool.exe not on path. Enter path to keytool (found in JRE bin folder)"
+		$keytool = Read-Host "Javahome: " + $env:JAVA_HOME + "keytool.exe not on path. Enter path to keytool (found in JRE bin folder)"
 
 		if([string]::IsNullOrEmpty($keytool) -or -not (Test-Path $keytool)) {
 			Write-Error "Keytool path was invalid."
