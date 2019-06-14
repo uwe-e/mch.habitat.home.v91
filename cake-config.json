@@ -1,9 +1,9 @@
 {
-  "WebsiteRoot": "c:\\work\\sitecore\\mch.habitathome.v91.dev.local",
-  "XConnectRoot": "c:\\work\\sitecore\\mch.habitathome.v91_xconnect.dev.local\\",
+  "WebsiteRoot": "d:\\work\\sitecore\\mch.habitathome.v91.dev.local",
+  "XConnectRoot": "d:\\work\\sitecore\\mch.habitathome.v91_xconnect.dev.local\\",
   "InstanceUrl": "https://mch.habitathome.v91.dev.local/",
   "SolutionName": "mch.habitat.home.v91.sln",
-  "ProjectFolder": "c:\\Work\\MCH.CMS.Habitat\\mch.habitat.home.v91",
+  "ProjectFolder": "d:\\Work\\MCH.CMS.Habitat\\mch.habitat.home.v91",
   "BuildConfiguration": "Debug",
   "BuildToolVersions": "VS2017",
   "RunCleanBuilds": false,

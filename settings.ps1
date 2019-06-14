@@ -1,7 +1,7 @@
 # Solution parameters
 $SolutionPrefix = "mch.habitathome.v91"
 $SitePostFix = "dev.local"
-$webroot = "c:\work\sitecore"
+$webroot = "d:\work\sitecore"
 
 $SitecoreVersion = "9.1.0 rev. 001564"
 $IdentityServerVersion = "2.0.0 rev. 00157"

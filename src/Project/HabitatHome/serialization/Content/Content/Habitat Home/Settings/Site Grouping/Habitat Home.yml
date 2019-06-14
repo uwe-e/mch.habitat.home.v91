@@ -20,7 +20,7 @@ SharedFields:
   Value: master/*=sitecore_sxa_master_index&web/*=sitecore_sxa_web_index
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: habitathome.dev.local
+  Value: mch.habitathome.v91.dev.local|sxa.habitathome.entw.intra
 - ID: "a7803a5d-cd03-4eda-abed-1d9af4bf6660"
   Hint: Database
   Value: web
@@ -32,7 +32,7 @@ SharedFields:
   Value: *
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
-  Value: 
+  Value: mch.habitathome.v91.dev.local
 - ID: "f19277fe-1b85-4b0a-8c26-5e74d766b3a3"
   Hint: Language
   Value: 
