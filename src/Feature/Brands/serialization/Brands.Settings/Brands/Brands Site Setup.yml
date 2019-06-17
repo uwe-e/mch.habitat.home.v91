@@ -1,0 +1,17 @@
+﻿---
+ID: "42f6b955-95f5-43a2-9248-a430b1101b00"
+Parent: "7b027cd9-45f7-4a6d-b51f-54a557303963"
+Template: "292ccfcd-7790-4692-856b-76014b8038e7"
+Path: /sitecore/system/Settings/Feature/Brands/Brands Site Setup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190606T072557Z
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: Brands

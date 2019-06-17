@@ -1,0 +1,17 @@
+﻿---
+ID: "a8759b55-4f75-4bc0-846c-9c5c6ce0beb6"
+Parent: "7b027cd9-45f7-4a6d-b51f-54a557303963"
+Template: "141df88e-7156-4d2e-a004-c8c1a7c51e9d"
+Path: /sitecore/system/Settings/Feature/Brands/Brands Tenant Setup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190606T072557Z
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: Brands

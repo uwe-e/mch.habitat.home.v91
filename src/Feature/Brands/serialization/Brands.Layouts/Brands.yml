@@ -1,0 +1,14 @@
+﻿---
+ID: "cb3dd0e7-ad17-4307-ba9d-b476644d4e76"
+Parent: "470a0483-80dc-4425-93b9-9c79c7c57a11"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Layouts/Feature/Brands
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190606T072557Z

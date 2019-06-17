@@ -1,0 +1,14 @@
+﻿---
+ID: "d19b8ab5-43e9-4fd1-a90f-baf9d373f4f4"
+Parent: "d4e0fc4a-5066-4e4d-a4a4-db5ad7fc69ee"
+Template: "d4e0fc4a-5066-4e4d-a4a4-db5ad7fc69ee"
+Path: /sitecore/templates/Feature/Brands/Rendering Parameters/BaseBrands/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190606T113953Z
