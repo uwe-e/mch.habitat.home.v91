@@ -1,0 +1,29 @@
+﻿---
+ID: "8238a8e8-033b-4ba1-b59b-1ac1acb43a0b"
+Parent: "5c28f956-2496-45f0-b515-2a19e2e3e8a3"
+Template: "dbdf5dfd-f79b-4766-99b9-e29775d97328"
+Path: /sitecore/system/Settings/Feature/MCH/MCH Bootstrap/MCH Bootstrap Grid Setup
+DB: master
+SharedFields:
+- ID: "c1489cff-fc13-4cf7-9457-4e5870d647e2"
+  Hint: Grid Definition
+  Value: "{FDFEE3CD-14DA-4485-B311-79F21BDE952D}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: MCH Bootstrap Grid Setup
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170315T104208Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: Bootstrap 4

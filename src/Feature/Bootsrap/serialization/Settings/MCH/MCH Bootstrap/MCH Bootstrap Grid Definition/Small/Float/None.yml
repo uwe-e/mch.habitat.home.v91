@@ -1,0 +1,26 @@
+﻿---
+ID: "d91196b9-01af-46ee-8b12-ca7f7b9f84b2"
+Parent: "6bb61210-10c2-4b8b-97af-307693e5b07b"
+Template: "cb3b3906-be80-4d9b-a2a4-038193da5422"
+Path: /sitecore/system/Settings/Feature/MCH/MCH Bootstrap/MCH Bootstrap Grid Definition/Small/Float/None
+DB: master
+SharedFields:
+- ID: "55c117ef-46c0-4cdc-a309-82419983fd42"
+  Hint: NonNumeric
+  Type: Checkbox
+  Value: 1
+- ID: "591c584f-08a7-4dc6-9d58-1de178c404a2"
+  Hint: Class
+  Value: "float-sm-none"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180604T112925Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
