@@ -1,0 +1,14 @@
+﻿---
+ID: "3e9e586c-e877-4f72-a3b9-5252c2606d79"
+Parent: "cbd8fee5-9c09-4b01-99d8-0cd2dfa89f4a"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/templates/Branches/Feature/Brands/Default Brands Variant/$name/Default
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190621T112347Z

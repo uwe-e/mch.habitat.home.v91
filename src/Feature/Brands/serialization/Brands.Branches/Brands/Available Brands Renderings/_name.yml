@@ -1,0 +1,23 @@
+﻿---
+ID: "8b355709-193d-4732-844f-ac76679f2b60"
+Parent: "5cdca0b6-8a8c-4d1b-b23f-c742dab0af4f"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/Brands/Available Brands Renderings/$name
+DB: master
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Type: TreelistEx
+  Value: "{4A1865E4-F48D-473D-9ABD-470BD43F9325}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190621T110142Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
