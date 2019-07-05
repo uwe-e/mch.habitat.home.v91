@@ -91,6 +91,7 @@
   </Choose>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -125,10 +126,15 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contract\ExternalApi\BaseBrandInfo.cs" />
+    <Compile Include="Contract\ExternalApi\BrandSearchResults.cs" />
     <Compile Include="Controllers\BrandsOverviewController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BrandsOverviewRepository.cs" />
+    <Compile Include="Repositories\IBrandsOverviewItem.cs" />
     <Compile Include="Repositories\IBrandsOverviewRepository.cs" />
+    <Compile Include="Services\IRequestService.cs" />
+    <Compile Include="Services\RequestService.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -136,12 +142,18 @@
       <Project>{ce34a3b7-b91a-41ba-8b16-c1e131e1c621}</Project>
       <Name>Sitecore.HabitatHome.Foundation.Accounts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\DependencyInjection\code\Sitecore.HabitatHome.Foundation.DependencyInjection.csproj">
+      <Project>{FA1EEE78-E6D6-4B63-A126-5F470624EFEE}</Project>
+      <Name>Sitecore.HabitatHome.Foundation.DependencyInjection</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtensions\code\Sitecore.HabitatHome.Foundation.SitecoreExtensions.csproj">
       <Project>{1c7b40c7-aea6-4038-9d45-0f5440908929}</Project>
       <Name>Sitecore.HabitatHome.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
