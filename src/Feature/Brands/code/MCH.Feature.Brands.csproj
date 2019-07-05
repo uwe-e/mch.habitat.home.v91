@@ -129,6 +129,7 @@
     <Compile Include="Contract\ExternalApi\BaseBrandInfo.cs" />
     <Compile Include="Contract\ExternalApi\BrandSearchResults.cs" />
     <Compile Include="Controllers\BrandsOverviewController.cs" />
+    <Compile Include="Models\BrandsOverviewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BrandsOverviewRepository.cs" />
     <Compile Include="Repositories\IBrandsOverviewItem.cs" />
@@ -151,9 +152,7 @@
       <Name>Sitecore.HabitatHome.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

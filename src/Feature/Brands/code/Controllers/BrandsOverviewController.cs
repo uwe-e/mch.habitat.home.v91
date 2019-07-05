@@ -3,6 +3,7 @@ using Sitecore.Data.Items;
 using System.Web.Mvc;
 using Sitecore.XA.Foundation.Mvc.Controllers;
 using Sitecore.Mvc.Presentation;
+using MCH.Feature.Brands.Models;
 
 namespace MCH.Feature.Brands.Controllers
 {
@@ -10,6 +11,17 @@ namespace MCH.Feature.Brands.Controllers
     {
         private Item dataSourceItem;
 
+        public BrandsOverviewController()
+        {
+
+        }
+
+        protected override object GetModel()
+        {
+
+            return new BrandsOverviewModel();
+            //return base.GetModel();
+        }
         public override ActionResult Index()
         {
             return base.Index();

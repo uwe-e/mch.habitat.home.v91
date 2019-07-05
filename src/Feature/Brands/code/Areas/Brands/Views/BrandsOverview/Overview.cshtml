@@ -1,3 +1,12 @@
-﻿<div class="uwe">
+﻿@using MCH.Feature.Brands.Models
+
+@model BrandsOverviewModel
+
+<div class="uwe">
     hallo uwe
+
+    @*@Html.Sitecore().Edit(Model, m => m.Title)*@
+    <h1>@Model.Title</h1>
+
+
 </div>
